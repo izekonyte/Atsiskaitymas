@@ -1,38 +1,103 @@
 .App {
-  text-align: center;
+  padding: 50px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 1000px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.d-flex {
+  display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.space-btw {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.grow1 {
+  flex: 1
+}
+
+.grow3 {
+  flex: 3
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+} 
+.ml-10 {
+  margin-left: 10px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-50{
+    padding: 50px
+}
+
+.toolbar {
+  display: flex;
+  padding: 10px;
+  background-color: #F2D7D9;
+  margin-bottom: 20px;
+}
+
+.toolbar a {
+  margin-left: 20px;
+}
+
+
+.post {
+  width: 250px;
+  background-color: #dde7ec;
+    border-radius: 4%;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.post img {
+  width: 100%;
+  border-radius: 4%;
+}
+
+.post1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 200px;
+  background-color: #f0dede;
+  border-radius: 4%;
+  padding: 5%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.post1 img {
+  width: 100%;
+ 
 }
