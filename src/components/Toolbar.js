@@ -15,7 +15,7 @@ const Toolbar = () => {
         <div className="toolbar d-flex  space-btw" >
             <Link to="/createPost">Create</Link>
             <Link to="/allPosts">All posts</Link>
-            <Link to="/single/:id ">Coments </Link>
+            
           
 
             <button onClick={logout}>Logout</button>

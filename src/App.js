@@ -31,7 +31,7 @@ function App() {
                         <Route path="/allPosts" element={<AllPostsPage/>}/>
                         <Route path="/createPost" element={<CreatePostPage/>}/>
                         <Route path="/single/:id" element={<SinglePostPage/>}/>
-                        <Route path="/CommentText" element={<CommentText/>}/>
+                        
                     </Routes>
                 </BrowserRouter>
             </div>
